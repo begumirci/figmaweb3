@@ -1,0 +1,460 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+.fabrx img{
+    width:69px;
+    height: 24px;
+}
+.brucelee{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+#bruceleeimg{
+    border-radius:45px;
+}
+.header{
+    height: 88px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:773px;
+
+}
+.brucelee span{
+    font-size:16px;
+    line-height: 28px;
+    width: 71px;
+    height: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+.bildirimler{
+    display: flex;
+    gap:40px;
+    align-items: center;
+}
+.soltaraf{
+    display:flex;
+    gap:50px;
+}
+.bodybir{
+    height: 660px;
+    background-image: url('../img/body/Sharpheaderlat.jpg');
+    background-size:cover;
+    position: relative;
+}
+
+.yazarimg img{
+    width: 28px;
+    height: 28px;
+    border-radius: 45px;
+}
+.farok{
+    width:187px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    color:#52647C;
+    font-family: 'Open Sans', sans-serif;
+}
+.yazarlist{
+    display: flex;
+    gap:12px;
+    list-style-type: none;
+}
+.yazarpadding{
+    padding-right:220px;
+}
+h3{
+    width: 445px;
+    height: 96px;
+    font-size:40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.containerbir{
+    width:541px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    gap:18px;
+    align-items: center;
+    list-style-type: none;
+    border-radius: 12px;
+    position:absolute;
+    top:388px;
+    left:201.5px;
+}
+.containeriki img{
+    width:64px;
+    height: 64px;
+}
+
+.sol{
+    position: absolute;
+    top:301px;
+    border-radius: 6px;
+    left:24px;
+}
+.sag{
+    position: absolute;
+    top:301px;
+    border-radius: 6px;
+    right:24px;
+}
+.featured{
+    font-size: 24px;
+    line-height: 34px;
+    width:1110px;
+    height: 34px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 80px;
+}
+.cizgi{
+    width:1110px;
+    border:1px solid #EAEAEA;
+}
+.anakisim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+    
+}
+.ilkresim{
+    width:354px;
+    height: 294px;
+    border-radius: 6px;
+}
+.ilkyazi{
+    width:354px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.sonyazi{
+    width:354px;
+    height: 72px;
+    font-size: 14px;
+    line-height: 24px;
+    color:#52647C;
+    font-family: 'Open Sans', sans-serif;
+}
+.alanbir{
+    width:354px;
+    height: 456px;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.alan{
+    display: flex;
+    justify-content:center;
+    gap:24px;
+   
+}
+.alanalt{
+    display: flex;
+    justify-content:center;
+    gap:24px;
+    padding-top:16px;
+    
+}
+.bodyiki{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:80px;
+}
+.yazarlistboyut{
+    width:354px;
+}
+#resimuc{
+    border-radius: 12px;
+}
+.bodyuc{
+    background-image: url('../img/body/bodyuc/Group\ 3dene\ \(1\).jpg');
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    height: 487px;
+    position: relative;
+}
+.kutu{
+    background-color: #0D6EFD;
+    width:112px;
+    height: 32px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    font-weight: bold;
+    
+}
+.beached{
+    width:326px;
+    height: 74px;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+.bodyucalan{
+    width:326px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+    position: absolute;
+    left:265px;
+    top:210px;
+}
+.yazarlistboyutiki{
+    width:326px;
+    color:white;
+}
+.birincikisim img{
+    width:445px;
+    height: 250px;
+    border-radius: 12px;
+}
+.baslik{
+    font-size:30px;
+    width:553px;
+    height: 37px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.baslikuzun{
+    font-size:30px;
+    width:553px;
+    height: 74px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.sonyaziboyut{
+    width:553px;
+    height: 72px;
+}
+.ikincikisim{
+    width:553px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.butun{
+    display:flex;
+    gap:32px;
+    
+}
+.bodydort{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:center;
+    gap:40px;
+}
+.tamkonumlama{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.yazarlistboyutuc{
+    width:553px;
+    height: 24px;
+}
+.araduzenleme{
+    display: flex;
+    flex-direction: column;
+    gap:56px;
+}
+.buton{
+    width:272px;
+    height: 64px;
+    border-radius: 3px;
+    background-color: #0D6EFD;
+    font-size:23px;
+    line-height: 32px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    border-color: white;
+    
+    
+}
+.butonkonum{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    padding-top: 72px;
+}
+.bodybesboyut{
+    margin-top: 80px;
+    margin-bottom:120px;
+}
+.bodybes{
+    background-image: url('../img/body/bodybes/12pxanaekran.jpg');
+    height: 354px;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kutular h3{
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+.textkismi{
+    width:303px;
+    height: 45.91px;
+    border-left-radius: 6px;
+    padding-left:16px;
+    border:1px solid whitesmoke;
+}
+.butonkismi{
+    width: 63px;
+    height: 45.91px;
+    border:1px solid white;
+    border-right-radius: 4px;
+    
+}
+.kutular span{
+    font-size: 12px;
+    line-height: 21px;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+}
+.textbuton{
+    display: flex;
+}
+.kutular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:15px;
+}
+.columnlists{
+    display: flex;
+    gap:24px;
+}
+.columnlist{
+    width:165px;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    padding-bottom: 70px;
+}
+
+.columnlist li{
+    font-size:14px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color:#807E7E;
+}
+#First{
+    color:black;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+#Second{
+    color:black;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+#Third{
+    color:black;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+#Fourth{
+    color:black;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.nevermiss{
+    width:369.2px;
+    height: 28px;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+}
+#beyazkutu{
+    width:291px;
+    height: 40px;
+    padding-left:15px;
+}
+li{
+    list-style-type: none;
+}
+#button{
+    width:60px;
+    height:43px;
+}
+.kutu{
+    display:flex;
+}
+.ikilikutu{
+    display: flex;
+    flex-direction:column;
+    gap:25px;
+    height: 98px;
+}
+.footer{
+    display:flex;
+    justify-content:center;
+    padding-top:72px;
+    
+    border:1px solid #EAEAEA;
+}
+.logo{
+    width:19px;
+    height: 19px;
+}
+.tarih{
+    width: 90px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color:#d3cfcf;
+    
+    
+}
+.social{
+    width: 216px;
+    height: 24px;
+}
+.footerdevam{
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:380px;
+}
